@@ -4,15 +4,17 @@
 
     A new registry key will be created in: "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" to perform the bypass 
     and start an elevated command prompt. Hello PowerShell :-) 
+    
+    Pure PoC, and more theoretical rather than practical, see the LINK for more information.
    
 .NOTES  
     Author		: @bartblaze
     License		: MIT
-    Function	: dccwUACBypass
-    File Name	: dccwUACBypass.ps1 
+    Function		: dccwUACBypass
+    File Name		: dccwUACBypass.ps1 
 
 .LINK       
-    
+    https://bartblaze.blogspot.com/2017/06/display-color-calibration-tool-dccw-and.html
     
 .EXAMPLE
 	 By default, PowerShell will be started.
